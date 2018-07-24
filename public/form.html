@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="lightgallery.min.css">
+	<link rel="stylesheet" href="lightslider.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+</header>
+<body>
+		<div id="form_contact" class="container justify-content-md-center col-md-8 offset-md-2  ">
+			<div class="row justify-content-md-center w-100">
+				<label style="margin:25px auto 0 auto;"  for="contact_form"><h5>Leave message</h5></label>
+				<form class="justify-content-center" id="contact_form" method="POST" action="send">
+					<input type="text" class="form-control" name="name" placeholder="Name">
+					<input type="e-mail" class="form-control" name="email" placeholder="E-mail">
+					<textarea class="form-control" name="body" id="textarea1" cols="30" rows="10" placeholder="Message"> </textarea>
+					<input id="btn_send" type="submit" class="offset-md-3 col-md-5 btn btn-primary" value="Отправить">
+				</form>
+			</div>
+		</div>
+</body>
+</html>

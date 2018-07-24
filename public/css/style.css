@@ -1,0 +1,43 @@
+body{
+	background-color: #F5F5F5;
+}
+
+#contact_form {
+	display:block;
+	width:100%;
+	margin:0 auto;
+}
+#form_contact h5{
+	color:white;
+	text-transform: uppercase;
+	}
+#contact_form input {
+	display:inline-block;
+	width:49%;
+	margin:20px auto 0 auto;
+	height:50px;
+}
+#contact_form textarea {
+	display:block;
+	width:90%;
+	margin:25px auto;
+}
+#btn_send:hover {
+	background-color: transparent;
+	border-color: #e87e04;
+	color: #e87e04;
+}
+#btn_send {
+	box-shadow: none;
+	background-color: transparent;
+	border-color: black;
+	color: black;
+	left:255px;
+	bottom:20px;
+	position:relative;
+}
+}
+.form-control {
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: none;
+}
